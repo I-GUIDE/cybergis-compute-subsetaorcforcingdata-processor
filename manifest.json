@@ -1,0 +1,43 @@
+{
+    "name": "SubsetAORCForcing Data Processor",
+    "container": "subsetaorcforcingdata-processor",
+    "pre_processing_stage": "python3 create_processor_yml.py",
+    "execution_stage": "./main.sh",
+    "post_processing_stage": "./transfer_shared_outputs.sh",
+    "slurm_input_rules": {
+   
+           "time": {
+                "max": 2,
+                "min": 1,
+                "default_value": 1,
+                "step": 1,
+                "unit": "Hours"   
+            },
+            "memory_per_cpu": {
+                "max": 1000,
+                "min": 200,
+                "default_value": 400,
+                "step": 200,
+                "unit": "MB"
+            }
+    },
+    "param_rules": {
+        "huc12_id": {
+            "type": "string_input",
+            "require": true,
+            "default_value": "n/a"
+        },
+        "start_date": {
+            "type": "string_input",
+            "require": true,
+            "default_value": "01/01/2016"
+        },
+        "end_date": {
+            "type": "string_input",
+            "require": true,
+            "default_value": "01/02/2016"
+        }
+    },
+    "supported_hpc": ["anvil_community"],
+    "default_hpc": "anvil_community"
+}
