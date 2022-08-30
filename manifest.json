@@ -14,10 +14,10 @@
                 "unit": "Hours"   
             },
             "memory_per_cpu": {
-                "max": 10000,
+                "max": 2000,
                 "min": 1000,
                 "default_value": 1000,
-                "step": 1000,
+                "step": 200,
                 "unit": "MB"
             }
     },
