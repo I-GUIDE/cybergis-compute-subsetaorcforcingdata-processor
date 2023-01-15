@@ -21,6 +21,7 @@
                 "unit": "MB"
             }
     },
+    "require_upload_data": true,
     "param_rules": {
         "huc12_id": {
             "type": "string_input",
@@ -41,6 +42,12 @@
             "type": "string_input",
             "require": true,
             "default_value": "1.0"
+        },
+        "gsl": {
+            "type": "string_option",
+            "require": true,
+            "options": ["True","False"],
+            "default_value": "False"
         }
     },
     "supported_hpc": ["anvil_community"],
