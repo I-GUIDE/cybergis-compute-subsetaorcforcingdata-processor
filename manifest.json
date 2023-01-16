@@ -37,17 +37,6 @@
             "type": "string_input",
             "require": true,
             "default_value": "01/02/2016"
-        },
-        "version": {
-            "type": "string_input",
-            "require": true,
-            "default_value": "1.0"
-        },
-        "gsl": {
-            "type": "string_option",
-            "require": true,
-            "options": ["True","False"],
-            "default_value": "False"
         }
     },
     "supported_hpc": ["anvil_community"],
