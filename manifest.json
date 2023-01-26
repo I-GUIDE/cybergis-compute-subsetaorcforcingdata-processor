@@ -27,7 +27,6 @@
                 "unit": "MB"
             }
     },
-    "require_upload_data": true,
     "param_rules": {
         "huc12_id": {
             "type": "string_input",
