@@ -1,7 +1,7 @@
 #!/bin/bash
 
-mkdir /compute_shared/${job_id}
+mkdir /compute_scratch/${job_id}
 
 cd ${result_folder}
 
-cp *LDASIN* /compute_shared/${job_id}/
+mv *LDASIN* /compute_scratch/${job_id}/
