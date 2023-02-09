@@ -27,9 +27,8 @@
                 "unit": "MB"
             }
     },
-    "require_upload_data": true,
     "param_rules": {
-        "huc12_id": {
+        "Domain_Path": {
             "type": "string_input",
             "require": true,
             "default_value": "n/a"
@@ -37,12 +36,12 @@
         "start_date": {
             "type": "string_input",
             "require": true,
-            "default_value": "01/01/2010"
+            "default_value": "01/01/2016"
         },
         "end_date": {
             "type": "string_input",
             "require": true,
-            "default_value": "01/02/2010"
+            "default_value": "01/02/2016"
         }
     },
     "supported_hpc": ["anvil_community"],
