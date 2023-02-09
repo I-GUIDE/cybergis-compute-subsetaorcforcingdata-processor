@@ -29,7 +29,7 @@ if len(subset_script_files) == 1:
                     m = re.search(r'(?<=south_north,)\d+\,\d+', line)
                     if m:
                         south_north = m.group(0)
-                        extents = '%s,%s' % (m1,m2)
+                        extents = '%s,%s' % (west_east,south_north)
 
 if len(shapefiles) == 1:
     processor_dict = {'$1': {'SubsetAORCForcingData': 
