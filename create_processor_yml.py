@@ -35,7 +35,6 @@ if len(shapefiles) == 1:
                                   {'shapefile': shapefiles[0],
                                    'start_date': os.environ['param_start_date'], 
                                    'end_date': os.environ['param_end_date'],
-                                   'extents':
                                    'version': '1.0',
                                    'gsl': 'True',
                                    'aorc_datapath':'/compute_shared/AORC_Forcing'}}}
