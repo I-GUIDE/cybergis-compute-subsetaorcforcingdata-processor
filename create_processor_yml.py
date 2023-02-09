@@ -3,6 +3,7 @@
 import yaml
 import os
 import glob
+import re
 
 # check to see if a shapefile is provided, if so, skip the huc12_id option
 if 'data_folder' in os.environ:
