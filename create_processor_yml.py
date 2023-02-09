@@ -51,7 +51,6 @@ else:
                                   {'huc12_id': os.environ['param_huc12_id'], 
                                    'start_date': os.environ['param_start_date'], 
                                    'end_date': os.environ['param_end_date'], 
-                                   'extents':
                                    'version': '1.0',
                                    'gsl': 'True',
                                    'aorc_datapath':'/compute_shared/AORC_Forcing'}}}
