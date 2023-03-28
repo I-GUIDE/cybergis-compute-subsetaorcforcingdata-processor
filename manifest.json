@@ -42,7 +42,12 @@
             "type": "string_input",
             "require": true,
             "default_value": "01/02/2016"
-        }
+        },
+        "Version": {
+            "type": "string_input",
+            "require": true,
+            "default_value": "1.0"
+        },
     },
     "supported_hpc": ["anvil_community"],
     "default_hpc": "anvil_community"
