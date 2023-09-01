@@ -52,6 +52,7 @@
             "type": "string_option",
             "options": ["True", "False"],
             "default_value": "False"
+        }
     },
     "supported_hpc": ["anvil_community"],
     "default_hpc": "anvil_community"
