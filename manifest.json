@@ -47,11 +47,6 @@
             "type": "string_input",
             "require": true,
             "default_value": "1.0"
-        },
-        "Retrieve_Output": {
-            "type": "string_option",
-            "options": ["True", "False"],
-            "default_value": "False"
         }
     },
     "supported_hpc": ["anvil_community"],
